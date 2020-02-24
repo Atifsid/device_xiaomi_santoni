@@ -1,5 +1,5 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/havoc_santoni.mk
+    $(LOCAL_DIR)/syberia_santoni.mk
 
 COMMON_LUNCH_CHOICES := \
-    havoc_santoni-userdebug
+    syberia_santoni-userdebug
