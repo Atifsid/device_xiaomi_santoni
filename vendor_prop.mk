@@ -216,10 +216,17 @@ ro.vendor.use_data_netmgrd=true \
 persist.data.netmgrd.qos.enable=true \
 persist.vendor.data.mode=concurrent
 
-# SurfaceFlinger
-PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
-    ro.surface_flinger.vsync_event_phase_offset_ns=2000000 \
-    ro.surface_flinger.vsync_sf_event_phase_offset_ns=6000000
+# Nitz
+PRODUCT_PROPERTY_OVERRIDES += \
+persist.rild.nitz_plmn="" \
+persist.rild.nitz_long_ons_0="" \
+persist.rild.nitz_long_ons_1="" \
+persist.rild.nitz_long_ons_2="" \
+persist.rild.nitz_long_ons_3="" \
+persist.rild.nitz_short_ons_0="" \
+persist.rild.nitz_short_ons_1="" \
+persist.rild.nitz_short_ons_2="" \
+persist.rild.nitz_short_ons_3=""
 
 # Radio
 PRODUCT_PROPERTY_OVERRIDES += \
