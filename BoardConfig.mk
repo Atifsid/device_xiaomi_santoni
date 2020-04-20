@@ -236,10 +236,7 @@ include device/qcom/sepolicy/sepolicy.mk
 BOARD_PLAT_PRIVATE_SEPOLICY_DIR += $(DEVICE_PATH)/sepolicy/private
 BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
 
-# SurfaceFlinger
-TARGET_USE_AOSP_SURFACEFLINGER := true
-
-#Treble
+# Treble
 ENABLE_VENDOR_IMAGE := true
 BOARD_VENDORIMAGE_FILE_SYSTEM_TYPE := ext4
 BOARD_VENDORIMAGE_PARTITION_SIZE := 528482304
