@@ -381,6 +381,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libjson
 
+# World APN list
+PRODUCT_COPY_FILES += \
+    device/xiaomi/santoni/prebuilt/etc/apns-conf.xml:system/etc/apns-conf.xml
+
 # Ramdisk
 PRODUCT_PACKAGES += \
     fstab.qcom \
